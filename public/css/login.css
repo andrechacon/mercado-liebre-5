@@ -1,0 +1,24 @@
+@import url(home.css);
+
+section.login .input_check-container {
+    margin-bottom: 1rem;
+}
+
+section.login{ 
+    max-width: 375px; /* para el maximo de la tarjeta de registro */
+    
+    margin: 200px auto 90px auto;
+}
+
+section.login button.btn-submit:hover{
+    background-color:  #0022AA;
+    color: white;
+}
+
+@media(min-width: 768px) {
+    section.login{ 
+        max-width: 700px; /* para el maximo de la tarjeta de registro */
+        
+        margin: 200px auto 90px auto;
+    }
+}
